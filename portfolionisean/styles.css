@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: url("fire.gif") no-repeat center center/cover;
+  position: relative;
+}
+
+nav {
+  font-family: "Space Grotesk", sans-serif;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  opacity: 1;
+  transform: translateX(-50%);
+}
+
+.navt {
+  color: white;
+  text-decoration: none;
+  margin-top: -15px;
+}
+
+.navt:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.navt:hover {
+  color: red;
+}
+nav ul {
+  opacity: 0.4;
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+.cursor {
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.socials {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.fb {
+  color: white;
+  text-decoration: none;
+}
+
+.fb:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.fb:hover {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #134ce9 0%,
+    #5fbaf7 25%,
+    #71a5f1 50%,
+    #197af8 75%,
+    #0169f0 100%
+  );
+}
+
+.ig {
+  color: white;
+  text-decoration: none;
+}
+
+.ig:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.ig:hover {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+.imgme {
+  margin-left: 63%;
+  margin-top: -40%;
+  position: relative;
+}
+
+.imgme2 {
+  margin-left: 60%;
+  margin-top: -20%;
+  position: relative;
+}
+
+img {
+  width: 490px;
+}
+
+.gall {
+  margin-left: 70%;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 500px;
+  position: relative;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  position: relative;
+}
+
+div.gallery img {
+  width: 500px;
+  height: auto;
+  position: relative;
+}
+
+div.desc {
+  font-family: "Space Grotesk", sans-serif;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.gall {
+  display: flex;
+  margin-left: 23%;
+  margin-top: 5%;
+}
+
+.worktitle {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  padding-top: 5%;
+  margin-left: 42%;
+}
+
+p {
+  font-family: "Space Grotesk", sans-serif;
+  margin-top: 20px;
+}
+
+footer {
+  font-family: "Space Grotesk", sans-serif;
+  margin-top: 13%;
+  margin-left: 39%;
+}
+
+.aboutme {
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.nameko {
+  font-size: x-large;
+  margin-bottom: 2%;
+}
+
+.contactme {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  padding-top: 5%;
+  margin-left: 39%;
+}
+
+.contact-container {
+  margin-top: 10%;
+  margin-left: 20%;
+  display: flex;
+  gap: 30px;
+  background: #000000;
+  padding: 20px;
+  border: 2px solid #000;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #000;
+  font-size: 14px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.contact-form textarea {
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #000;
+  font-size: 14px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.contact-form button {
+  padding: 8px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.contact-info {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  margin-left: 15%;
+  font-size: large;
+}
+
+.social-icons span {
+  margin: 5px;
+}
+
+.fb2 {
+  color: white;
+  text-decoration: none;
+}
+
+.fb2:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.ig2 {
+  color: white;
+  text-decoration: none;
+}
+
+.ig2:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.follow {
+  margin-top: 10%;
+}
+
+img {
+  border-radius: 15px;
+}
